@@ -1,5 +1,5 @@
 # BrainfuckJS
-Hide Text and Javascript inside < ! > characters
+Hide Text and Javascript inside < | > characters
 
 Example:
 
