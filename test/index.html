@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+    .textfield {
+        margin: 0px; width: 346px; height: 135px;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>BrainfuckJS v.0.1.0</h1><br/>
+
+    <textarea class="textfield" placeholder="Enter a text here you want to encrypt.." id="input"></textarea><br/>
+
+    <p>Encrypted:</p>
+
+    <textarea class="textfield" id="encoded"></textarea><br/>
+
+    <p>Decrypted:</p>
+
+    <textarea class="textfield" id="decoded"></textarea>
+
+    <script type="text/javascript" src="../src/brainfuck.js"></script>
+
+    <script>
+        var $ = function() {
+            return document.querySelector(arguments[0]);
+        };
+
+        $("#input").addEventListener('input', function() {
+
+            $("#encoded").value = BRAINFUCK.Encode($("#input").value);
+            
+            $("#decoded").value = BRAINFUCK.Decode($("#encoded").value);
+
+        });
+    </script>
+</body>
+</html>
