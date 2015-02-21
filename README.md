@@ -1,4 +1,9 @@
 # BrainfuckJS
-Hide Javascript inside []{}()!+ characters
+Hide Text and Javascript inside < ! > characters
 
-In early development stage, unusable at the moment
+Example:
+
+ "Hello World"
+ ```javascript
+ ">>>|> <|<>|< <|<>|<<<>>> <|<>|<<<>>> <|<|< <<|> <<<>>>|>>> <|<|< <|<|>> <|<>|<<<>>> <|<>|<>"
+```
