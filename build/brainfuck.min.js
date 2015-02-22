@@ -1,4 +1,4 @@
-/**
+/** 
  * BrainfuckJS v0.1.0
  * www.github.com/felixmaier/BrainfuckJS
  * @author Felix Maier
